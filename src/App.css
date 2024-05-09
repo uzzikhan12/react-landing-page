@@ -1,38 +1,62 @@
-.App {
-  text-align: center;
+.green-bg{
+  background-color: #223637;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.green{
+  color: #223637;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.sell-box{
+  background: rgb(185,238,246);
+background: linear-gradient(279deg, rgba(185,238,246,1) 0%, rgba(246,254,254,1) 100%);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.font-size{
+  font-size: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.font-size2{
+  font-size: 11px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.shadow{
+  box-shadow: 0 5px 5px #9999;
 }
+
+.radius{
+  border-radius: 5px;
+}
+
+.box-1{
+  background-image: url(https://static.vecteezy.com/system/resources/previews/028/288/932/large_2x/modern-cozy-mock-up-and-decoration-furniture-of-living-room-and-empty-canvas-frame-on-the-white-wall-texture-background-3d-rendering-ai-generative-free-photo.jpg);
+  background-size: cover;
+  width: 100%;
+  background-position: center;
+  height: 550px;
+  margin-top: 5px;
+}
+
+.card-container{
+  background-color: white;
+  height: fit-content;
+  border-radius: 2px;
+}
+
+.card-color{
+  margin: 0.5rem 5%;
+}
+
+.card-title{
+  margin: 0.5rem 5%;
+}
+.card-price{
+  margin: 0.5rem 5%;
+}
+
+li{
+  list-style: none;
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
